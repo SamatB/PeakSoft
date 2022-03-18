@@ -25,4 +25,22 @@ public class Dancer extends Person{
     public void dancing () {
         System.out.println(getName() + " is dancing to the M. Jackson's song.");
     }
+
+    @Override
+    public void learn() {
+        super.learn();
+        System.out.println(getName() + " learned to dance in 3 months.");
+    }
+
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println(getName() + " loves eating fried chicken.");
+    }
+
+    @Override
+    public void walk() {
+        super.walk();
+        System.out.println(getName() + " at the dancefloor makes bodymoves so cool.");
+    }
 }

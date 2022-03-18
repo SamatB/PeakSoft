@@ -26,12 +26,11 @@ public class Person {
     }
 
     public  void learn () {
-        System.out.println(getName() + " is learning the English!");
+
     }
     public void walk () {
-        System.out.println(getName() + " is walking on the beach.");
     }
     public void eat () {
-        System.out.println(getName() + " is eating fast food.");
+
     }
 }

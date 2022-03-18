@@ -11,9 +11,9 @@ public class Main {
 
         System.out.println(programmer);
         programmer.coding();
+        programmer.learn();
         programmer.eat();
         programmer.walk();
-        programmer.learn();
 
         System.out.println("\n");
 

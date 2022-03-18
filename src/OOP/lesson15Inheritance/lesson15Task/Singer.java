@@ -29,4 +29,20 @@ public class Singer extends Person{
         System.out.println(" and can play any songs on guitar.");
     }
 
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println(getName() + " today is going to eat with his band "  + getBandName());
+    }
+    @Override
+    public void learn () {
+        super.learn();
+        System.out.println(getName() + " is learning new song for the concert.");
+    }
+
+    @Override
+    public void walk() {
+        super.walk();
+        System.out.println(getName() + " every morning walks on the 1st street.");
+    }
 }
