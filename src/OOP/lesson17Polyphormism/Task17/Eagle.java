@@ -17,9 +17,12 @@ public class Eagle extends Animal{
     public  void fly () {
         System.out.println("Eagle hunts for turtle...");
     }
+<<<<<<< HEAD
 
     @Override
     public String toString () {
         return "Eagle is on hunting";
     }
+=======
+>>>>>>> origin/master
 }
