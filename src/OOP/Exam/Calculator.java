@@ -16,7 +16,7 @@ public class Calculator{
             symbol = scanner.next().charAt(0);
             num2 = scanner.nextInt();
             boolean confition = (num1 >= 1 & num1 <= 10) && (num2 <= 10 & num2 >= 1);
-            
+
             if (confition) {
                 switch (symbol) {
                     case '+':
@@ -41,7 +41,7 @@ public class Calculator{
             }
         }
         else {
-            System.out.println("Вводите числа!");
+            System.out.println("Вводите цифры!");
         }
     }
 }
